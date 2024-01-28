@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:wght@500&display=swap');
+
+h2 {
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.destinations-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 100%;
+    max-width: 1440px; */
+}
+
+.box {
+   
+    margin: 20px;
+    width: 40%;
+}
+
+.box img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.box h2 {
+    color: #083D81;
+    text-align: center;
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.box p {
+    color: var(--dark-60, #778088);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    margin: 10px 0;
+}

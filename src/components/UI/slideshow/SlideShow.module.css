@@ -1,0 +1,23 @@
+/* @import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css"; */
+
+.slider-container {
+    max-width: 800px; 
+    margin: 0 auto;
+  }
+  
+  .SlideShow {
+    width: 10000%;
+  }
+  
+  .slick-slide {
+    margin: 0 10px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Poppins:wght@500&display=swap');
+
+.header {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  h1 {
+    color: #2E4971;
+    text-align: center;
+    font-family: 'Bonheur Royale';
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+} 
+
+  .menuHeader{
+   display: flex;
+   align-items: center;
+  }
+
+  .menuHeader a{
+    color: #4BA3C3;
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-right: 15px;
+    align-items: center;  
+    text-decoration: none;
+    margin-top: 10px;
+} 
+
+.signIn {
+    font-weight: bold;
+    color: blue;
+}

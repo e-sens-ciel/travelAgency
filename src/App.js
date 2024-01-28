@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import Header from "./components/UI/header/Header";
+import TravelDestinations from "./components/UI/body/travelDestinations/TravelDestinations";
+import Register from "./components/UI/register/Register";
+import Footer from "./components/UI/footer/Footer"
+// import SlideShow from "./components/UI/slideshow/SlideShow";
+import Body from "./components/UI/body/Body";
 
 function App() {
+  // const images = [
+  //   'https://cdn.pixabay.com/photo/2017/01/20/00/30/maldives-1993704_960_720.jpg',
+  //   'https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072_960_720.jpg',
+  //   'https://cdn.pixabay.com/photo/2018/07/16/16/08/island-3542290_960_720.jpg',
+  // ];
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <SlideShow images={images} /> */}
+      <Header />
+      <Switch> 
+        <Route path="/register" component={Register} />
+        {/* <Route path="/destinations" component={TravelDestinations} /> */}
+      </Switch>
+      <Body />
+      <Footer />
     </div>
-  );
+  </Router>
+);
 }
 
 export default App;
